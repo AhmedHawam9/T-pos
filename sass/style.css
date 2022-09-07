@@ -1783,4 +1783,7 @@ footer .email button svg {
   .employment .card_step:nth-child(1)::before, .employment .card_step:nth-child(2)::before, .employment .card_step:nth-child(3)::before {
     content: unset;
   }
+  .app_technicians .title_section {
+    width: 70%;
+  }
 }/*# sourceMappingURL=style.css.map */
