@@ -1,0 +1,6 @@
+<svg id="vuesax_linear_timer" data-name="vuesax/linear/timer" xmlns="http://www.w3.org/2000/svg" width="100.155" height="100.155" viewBox="0 0 100.155 100.155">
+  <g id="timer">
+    <path id="Vector" d="M40.683,0H13.641C-2.05,0-3.26,14.105,5.211,21.784l43.9,39.895c8.471,7.679,7.261,21.784-8.43,21.784H13.641c-15.691,0-16.9-14.105-8.43-21.784l43.9-39.895C57.584,14.105,56.374,0,40.683,0Z" transform="translate(22.915 8.346)" fill="none" stroke="#57d4b1" stroke-linecap="round" stroke-linejoin="round" stroke-width="5"/>
+    <path id="Vector-2" data-name="Vector" d="M0,0H100.155V100.155H0Z" fill="none" opacity="0"/>
+  </g>
+</svg>
