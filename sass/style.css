@@ -1773,4 +1773,14 @@ footer .email button svg {
     width: 49%;
     margin-bottom: 1rem;
   }
+  .employment .card_step {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 2rem;
+    -webkit-margin-end: auto !important;
+            margin-inline-end: auto !important;
+  }
+  .employment .card_step:nth-child(1)::before, .employment .card_step:nth-child(2)::before, .employment .card_step:nth-child(3)::before {
+    content: unset;
+  }
 }/*# sourceMappingURL=style.css.map */

@@ -1996,4 +1996,17 @@ footer {
       margin-bottom: 1rem;
     }
   }
+  .employment {
+    .card_step {
+      width: 80%;
+      margin: 0 auto;
+      margin-top: 2rem;
+      margin-inline-end: auto !important;
+      &:nth-child(1), &:nth-child(2), &:nth-child(3) {
+        &::before {
+          content: unset;
+        }
+      }
+    }
+  }
 }
