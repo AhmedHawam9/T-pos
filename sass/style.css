@@ -405,6 +405,9 @@ body {
   text-align: center;
   margin-bottom: 2rem;
 }
+.services .card_services {
+  cursor: pointer;
+}
 .services .card_services img {
   width: 100%;
   height: 250px;
@@ -431,6 +434,7 @@ body {
   position: relative;
   height: 85vh;
   padding: 3rem 0;
+  overflow: hidden;
 }
 .shipping .background_img {
   position: absolute;
@@ -440,22 +444,20 @@ body {
   right: 0;
   height: 100%;
   width: 100%;
+  z-index: -1;
 }
 .shipping .row {
   width: 100%;
   margin: 0;
   padding: 0;
 }
-.shipping .swiper {
-  overflow: hidden;
-}
-.shipping .swiper h2 {
+.shipping h2 {
   font-family: "semibold";
   color: #fff;
   margin-bottom: 2rem;
   position: relative;
 }
-.shipping .swiper h2::after {
+.shipping h2::after {
   content: "";
   position: absolute;
   border-bottom: 2px solid #FFB656;
@@ -464,27 +466,11 @@ body {
   height: 5px;
   width: 30%;
 }
-.shipping .swiper p {
+.shipping p {
   font-family: "regular";
   color: #E0E0E0;
   font-size: 0.9rem;
   line-height: 1.8;
-}
-.shipping .swiper .swiper-pagination {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.shipping .swiper .swiper-pagination .swiper-pagination-bullet {
-  background-color: #fff;
-  opacity: 0.4;
-  margin: 0 0.4rem;
-}
-.shipping .swiper .swiper-pagination .swiper-pagination-bullet-active {
-  opacity: 1;
-  width: 20px;
-  height: 8px;
-  border-radius: 5px;
 }
 
 /* ======= shipping ======= */
