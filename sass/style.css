@@ -598,6 +598,7 @@ body {
 .company .accordion .accordion-item .accordion-header .accordion-button {
   color: #3b3a3a;
   font-family: "Medium";
+  text-align: start;
 }
 .company .accordion .accordion-item .accordion-header .accordion-button .number {
   display: flex;
@@ -1686,8 +1687,9 @@ footer .email button svg {
     margin-top: 3rem;
     overflow: hidden;
   }
-  .shipping .swiper {
+  .shipping .shiping_card {
     height: 70vh;
+    overflow: hidden;
   }
   footer .logo-col img {
     width: 20%;
@@ -1703,6 +1705,9 @@ footer .email button svg {
   }
 }
 @media only screen and (max-width: 600px) {
+  .header {
+    height: 60vh;
+  }
   .header .text-header span {
     width: 100%;
   }

@@ -634,6 +634,7 @@ $SecondText: #828c8d;
         .accordion-button {
           color: #3b3a3a;
           font-family: "Medium";
+          text-align: start;
           .number {
             display: flex;
             width: 40px;
@@ -1871,8 +1872,9 @@ footer {
   .shipping {
     margin-top: 3rem;
     overflow: hidden;
-    .swiper {
+    .shiping_card {
       height: 70vh;
+      overflow: hidden;
     }
   }
   
@@ -1896,6 +1898,7 @@ footer {
 
 @media only screen and (max-width: 600px) {
   .header {
+    height: 60vh;
     .text-header {
       span {
         width: 100%;
