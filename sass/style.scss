@@ -37,6 +37,36 @@ $SecondText: #828c8d;
   src: url("../fonts/Poppins-Bold.otf");
 }
 
+.float_whatsapp {
+  position: fixed;
+  bottom: 13%;
+  left: 3%;
+  z-index: 999;
+  img {
+    width: 70px;
+    height: 70px;
+  }
+}
+.float_up {
+  position: fixed;
+  bottom: 5%;
+  left: 3%;
+  z-index: 999;
+  transition: background-color .3s, 
+    opacity .5s, visibility .5s;
+  opacity: 0;
+  visibility: hidden;
+  cursor: pointer;
+  img {
+    width: 65px;
+    height: 65px;
+  }
+  &.show {
+    opacity: 1;
+    visibility: visible;
+  }
+}
+
 /* ======= navbar ======= */
 .navbar {
   .navbar-brand {
@@ -1729,7 +1759,15 @@ footer {
 }
 
 @media only screen and (max-width: 991.98px) {
-  
+  .float_up {
+    img {
+      width: 70px;
+      height: 70px;
+    }
+  }
+  .float_whatsapp {
+    bottom: 15%;
+  }
   .header {
     .text-header {
       p {

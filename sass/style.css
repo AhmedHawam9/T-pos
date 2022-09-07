@@ -27,6 +27,36 @@ body {
   font-family: "bold";
   src: url("../fonts/Poppins-Bold.otf");
 }
+.float_whatsapp {
+  position: fixed;
+  bottom: 13%;
+  left: 3%;
+  z-index: 999;
+}
+.float_whatsapp img {
+  width: 70px;
+  height: 70px;
+}
+
+.float_up {
+  position: fixed;
+  bottom: 5%;
+  left: 3%;
+  z-index: 999;
+  transition: background-color 0.3s, opacity 0.5s, visibility 0.5s;
+  opacity: 0;
+  visibility: hidden;
+  cursor: pointer;
+}
+.float_up img {
+  width: 65px;
+  height: 65px;
+}
+.float_up.show {
+  opacity: 1;
+  visibility: visible;
+}
+
 /* ======= navbar ======= */
 .navbar .navbar-brand img {
   width: 80%;
@@ -1581,6 +1611,13 @@ footer .email button svg {
   }
 }
 @media only screen and (max-width: 991.98px) {
+  .float_up img {
+    width: 70px;
+    height: 70px;
+  }
+  .float_whatsapp {
+    bottom: 15%;
+  }
   .header .text-header p::before {
     width: 5%;
   }

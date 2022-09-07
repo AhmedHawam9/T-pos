@@ -8,3 +8,20 @@ for (let i = 0; i < menuLength; i++) {
   }
 }
 //=========== Active navbar Link in multi pages =============
+
+//=========== Back to Top Button =============
+var btn = $("#float_up");
+
+$(window).scroll(function () {
+  if ($(window).scrollTop() > 300) {
+    btn.addClass("show");
+  } else {
+    btn.removeClass("show");
+  }
+});
+
+btn.on("click", function (e) {
+  e.preventDefault();
+  $("html, body").animate({ scrollTop: 0 }, "300");
+});
+//=========== Back to Top Button =============
